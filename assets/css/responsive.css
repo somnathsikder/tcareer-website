@@ -1,0 +1,354 @@
+/*/*/*======================================================
+Author Name: tcareer
+Template Name: tcareer project
+Tags: Html, Css, Bootstrap, jQuery, Javascript
+========================================================*/
+
+/*======================================================
+Table Of Content:
+1. Global Css
+2. Typhography
+3. Common Style
+4. Header Section
+5. Banner Section
+6. Hero Section
+7. New Job Section
+8. Tech Career Section 
+9. Instructor Section 
+10. Journey Banner Section 
+11. Brand Section
+12. Feedback Section
+13. Testimonial Section
+14. Contact Section
+15. Footer
+========================================================*/
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+     .banner-inner-img {
+        display: none;
+    }
+
+
+    .read-more {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 6px 15px;
+    }
+
+    .hero-header h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-header p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: -90px;
+    }
+    .section-title p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: -25px;
+    }
+
+    .section-title.career-para h2 {
+        margin-top: 40px;
+    }
+
+    .section-title.career-para p {
+        margin-bottom: 40px;
+    }
+
+    .service-flex-area {
+        margin-bottom: 30px;
+    }
+
+    .contact-left h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .contact-left h5 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .single-form .message {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 15px;
+
+    }
+
+    .footer-inner-title h4 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .banner-btn {
+        margin-top: 12px;
+        text-align: left;
+    }
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .header-phone {
+        text-align: left;
+    }
+
+    .hero-image {
+        text-align: left;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .banner-inner-img {
+        display: none;
+    }
+
+
+    .read-more {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 6px 15px;
+    }
+
+    .hero-header h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-header p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: -90px;
+    }
+    .section-title p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: -25px;
+    }
+
+    .section-title.career-para h2 {
+        margin-top: 40px;
+    }
+
+    .section-title.career-para p {
+        margin-bottom: 40px;
+    }
+
+    .service-flex-area {
+        margin-bottom: 30px;
+    }
+
+    .contact-left h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .contact-left h5 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .single-form .message {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 15px;
+
+    }
+
+    .footer-inner-title h4 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .banner-btn {
+        margin-top: 12px;
+        text-align: left;
+    }
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .header-phone {
+        text-align: left;
+    }
+
+    .hero-image {
+        text-align: left;
+    }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .banner-inner-img {
+        display: none;
+    }
+
+
+    .read-more {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 6px 15px;
+    }
+
+    .hero-header h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-header p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: -90px;
+    }
+    .section-title p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: -25px;
+    }
+
+    .section-title.career-para h2 {
+        margin-top: 40px;
+    }
+
+    .section-title.career-para p {
+        margin-bottom: 40px;
+    }
+
+    .service-flex-area {
+        margin-bottom: 30px;
+    }
+
+    .contact-left h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .contact-left h5 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .single-form .message {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 15px;
+
+    }
+
+    .footer-inner-title h4 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .banner-btn {
+        margin-top: 12px;
+        text-align: left;
+    }
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .header-phone {
+        text-align: left;
+    }
+
+}

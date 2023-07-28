@@ -1,0 +1,806 @@
+/*======================================================
+Author Name: tcareer
+Template Name: tcareer project
+Tags: Html, Css, Bootstrap, jQuery, Javascript
+========================================================*/
+
+/*======================================================
+Table Of Content:
+1. Global Css
+2. Typhography
+3. Common Style
+4. Header Section
+5. Banner Section
+6. Hero Section
+7. New Job Section
+8. Tech Career Section 
+9. Instructor Section 
+10. Journey Banner Section 
+11. Brand Section
+12. Feedback Section
+13. Testimonial Section
+14. Contact Section
+15. Footer
+========================================================*/
+
+/*================
+Global Css
+==================*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	color: #3a3a3a;
+	font-family: Montserrat;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	color: #3a3a3a;
+	font-size: 14px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*================
+Typhography
+==================*/
+
+h1{
+	font-size: 50px;
+	line-height: 65px;
+}
+
+h2{
+	font-size: 40px; 
+	line-height: 50px;
+}
+
+h3{
+	font-size: 30px;
+	line-height: 40px;
+}
+
+h4{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h5{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+h6{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*================
+Common Style
+==================*/
+
+.section-padding{
+	padding: 70px 0;
+}
+
+.short-section-padding{
+	padding: 50px 0;
+}
+
+.section-bg{
+	background-color: #EEEEEE;
+}
+
+.section-title{
+	margin-bottom: 30px;
+}
+
+.section-title h2{
+	font-size: 37px;
+	line-height: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.section-title p{
+	font-size: 17.22px;
+	line-height: 30.19px;
+	font-weight: 400;
+}
+
+
+.read-more{
+	color: white;
+	font-size: 12.73px;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-weight: 400;
+	line-height: 21.03px;
+	padding: 10px 25px;
+	background-color: #FF824C;
+	border: none;
+	border-radius: 15px;
+}
+
+span {
+	color: #FF814D;
+}
+
+/*=====================
+Header Section  
+=======================*/
+/* Remove border from toggler */
+.navbar-toggler {
+	border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+}
+
+
+.container-fluid img{
+	width: 110px;
+	height: 18.33px;
+
+}
+
+li.nav-item a {
+	color: #18181B;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	font-family: Montserrat;
+}
+
+li.nav-item {
+	margin-left: 10px;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+	margin-left: 100px;
+}
+
+.header-phone {
+	text-align: right;
+}
+
+.header-phone img {
+	width: 13px;
+	height: 13px;
+}
+
+.header-phone a {
+	text-decoration: none;
+	color: #000;
+}
+
+.header-phone a li {
+	list-style: none;
+	display: inline-block;
+}
+
+
+.container.h-width {
+	max-width: 1240px;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+	width: 30px;
+	height: 3px;
+	background-color: #e74c3c;
+	display: block;
+	transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+	margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+	transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+	transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+	background-color: #777777;
+}
+
+
+/*=============================
+Banner Section
+===============================*/
+
+.container.b-width {
+	max-width: 1240px;
+}
+
+.banner-area {
+	background-color: #000;
+	padding: 10px;
+}
+
+.banner-area h4 {
+	color: #fff;
+	font-size: 17.22px;
+	line-height: 23.72px;
+	font-weight: 400;
+}
+
+.banner-btn {
+	text-align: right;
+}
+
+.banner-inner-img img {
+	margin-left: 16px;
+}
+
+
+button.read-more:hover {
+	background: #fff;
+	color: #000;
+	transition: linear 1s;
+}
+
+/*==========================
+Hero Section
+============================*/
+
+.hero-header h1{
+	color: black;
+	font-size: 65.89px;
+	font-family: Montserrat;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 68.89px;
+}
+
+
+.hero-header h2{
+	font-size: 63.64px;
+	font-family: Montserrat;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 68.89px;
+	border: 1px #18181B;
+	color: #18181B;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+}
+
+
+.hero-header h3{
+	color: black;
+	font-size: 66.64px;
+	font-family: Montserrat;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 68.89px;
+}
+
+.hero-header p{
+	color: black;
+	font-size: 17.22px;
+	font-family: Montserrat;
+	font-weight: 400;
+	line-height: 30.19px;
+	margin-top: 15px;
+}
+
+.hero-header img {
+	margin-right: 20px;
+}
+
+.hero-image {
+	text-align: right;
+}
+
+/*==========================
+New Job Section
+============================*/
+
+
+
+.single-img-box {
+	background: #F2F1F1;
+	padding: 30px;
+	border-radius: 10px;
+	margin-top: 5%;
+	height: 270px;
+}
+
+.single-img-box img {
+	width: 59px;
+	height: 35px;
+}
+
+.single-img-box-inner p {
+	margin-bottom: 25px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #18181B;
+}
+
+.single-img-box-inner h5 {
+	color: #18181B;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.single-img-box-inner h3 {
+	font-family: Montserrat;
+	font-size: 17.97px;
+	line-height: 23.72px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	font-weight: 400;
+	color: #18181B;
+}
+
+.flex-area {
+	display: flex;
+}
+
+.salary {
+	margin-left: 40px;
+}
+
+
+/*=========================
+Career Section 
+===========================*/
+
+.career-area{
+	background-color: #F2F1F1;
+}
+
+
+.career-para p {
+	margin-top: 35px;
+}
+
+
+
+/*============================
+Service Section
+==============================*/
+
+
+.service-flex-inner h3 {
+	font-family: Montserrat;
+	font-size: 17.97px;
+	line-height: 23.72px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.service-flex-inner p {
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+
+/*===========================
+Instructor Section
+=============================*/
+
+.single-instructor-box{
+	background: #F2F1F1;
+	padding: 30px;
+	border-radius: 9px;
+	margin-top: 5%;
+}
+
+.single-instructor-box h3 {
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.single-instructor-box p {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.single-instructor-box h5{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.list-item li {
+	list-style: none;
+	display: inline-block;
+}
+
+.list-item li a {
+	text-decoration: none;
+	margin-right: 5px;
+	color: #18181B;
+	background: #fff;
+	padding: 6px;
+	border-radius: 20px;
+}
+
+
+
+/*============================
+Journey Section
+==============================*/
+
+.journey-area{
+	/*background-image: url(../images/pseudo.png);*/
+	background-image: linear-gradient(rgb(26, 25, 25),black);
+}
+
+.journey-image img {
+	margin-bottom: 100px;
+
+}
+
+/*============================
+Brand Section
+==============================*/
+.brand-area{
+	background-color: #fff;
+}
+
+
+
+/*============================
+Feedback Section
+==============================*/
+
+.feedback-single-box{
+	background: #F2F1F1;
+	padding: 40px;
+	border-radius: 10px;
+	margin-top: 5%;
+}
+
+.feedback-image h3 {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 23px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.feedback-image p {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+section.feedback-area.section-padding {
+	margin-top: -60px;
+}
+
+
+/*=============================
+Testimonial Section
+===============================*/
+
+
+div#slider {
+	margin-top: 15px;
+}
+
+.img-area {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.img-area img {
+	width: 100%;
+}
+
+.content {
+	text-align: center;
+	padding: 40px;
+	border-radius: 25px;
+	color: #fff;
+	background-color: #F2F1F1;
+	margin: 0 10px;
+}
+
+.content h2 {
+	font-size: 23px;
+	line-height: 29px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.content p {
+	font-size: 13px;
+	line-height: 21px;
+	font-weight: 400;
+	text-align: center;
+}
+
+p.socials {
+	margin-top: 30px;
+}
+
+p.socials i {
+	font-size: 20px;
+	margin: 0 4px;
+	color: #FF824C;
+}
+
+.owl-dots{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.owl-dot{
+	display: inline-block;
+	height: 15px !important;
+	width:  15px !important;
+	background-color: #fafafa !important;
+	opacity: .8;
+	margin: 0 10px;
+	border-radius: 50%;
+	border: 1px solid red !important;
+}
+
+.owl-dot.active{
+	background-color: #FF5C00 !important;
+}
+
+
+section.testimonial-area.section-padding {
+	margin-top: -100px;
+}
+
+
+
+/*=============================
+Contact Section
+===============================*/
+
+
+.contact-area{
+	background-color: #F2F1F1;
+}
+
+
+.contact-left h2 {
+	font-size: 37px;
+	line-height: 42px;
+	font-weight: 700;
+	font-family: Montserrat;
+}
+
+.contact-left h5 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat;
+	margin-top: 30px;
+}
+
+
+.row.hello {
+	background: #fff;
+	padding: 60px;
+	border-radius: 15px;
+}
+
+.single-field input {
+	height: 40px;
+	width: 100%;
+	border: none;
+	padding: 0px 10px;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.single-field {
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(24, 24, 27, 0.2);
+}
+
+
+
+.single-form .message {
+	background: #FF824C;
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	border-radius: 50px;
+	border: none;
+	padding: 10px 30px;
+}
+
+
+input.message:hover {
+    background: #000;
+    transition: all linear 1s;
+}
+
+/*==============================
+Footer Section
+================================*/
+
+.footer-area{
+	background: #0E0E0E;
+}
+
+.footer-logo h2{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+
+
+.footer-inner i {
+	font-size: 16px;
+	color: #fff;
+	margin-right: 15px;
+}
+
+.footer-inner {
+	margin-bottom: 15px;
+}
+
+.footer-inner img {
+	width: 18px;
+	height: 18px;
+}
+
+.footer-inner a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.footer-inner a li {
+	list-style: none;
+	display: inline-block;
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+
+
+.footer-inner-title h4 {
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.footer-inner-title ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 36px;
+}
+
+
+.footer-bottom-left p {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.footer-middle ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.footer-middle ul li a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.social-icon {
+	margin-top: 15px;
+}
+
+.social-icon i {
+	margin-right: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.line{
+	border: 1px solid #fff;
+}
+
+
+
+.footer-inner-mail {
+	display: flex;
+}
+
+.footer-inner-mail i {
+	color: #fff;
+	margin-right: 20px;
+	font-size: 16px;
+}
+
+.footer-inner-mail p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+}
